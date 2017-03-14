@@ -1,4 +1,152 @@
 body
 {
-    background-color: grey;
+    margin: 0 ;
+    padding:0 ;
+    background-image: url(../img/tweed.png) !important;
+    /* Background pattern from subtlepatterns.com */
+    padding-top: 1%;
+    box-sizing: padding-box;
+    color:#eeeeee ;
+}
+
+.error
+{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tittle
+{
+    text-align: center;  
+    font-style: italic;
+    color: #eeeeee;
+    font-size: 40px ;
+    padding: 5px;
+    margin: 0 !important;
+    
+    
+}
+
+
+#top_bar
+{
+   
+}
+#nav_bar
+{
+    text-align: center;
+    margin-top: 25px; 
+    padding:10px;    
+    background-color: aqua;
+}
+
+.log_bar
+{
+      padding-top: 1.5%;
+}
+
+#content
+{
+    text-align: center;
+    margin-top: 25px; 
+    padding:10px;    
+    background-color: aqua;
+}
+
+
+
+#registration
+{
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    padding:20px;
+    
+}
+
+#container
+{
+    padding-top: 1%;
+    height:550px;
+}
+
+
+
+
+legend 
+{
+    border-bottom: 1px solid #c4c4c4  ;
+}
+
+.form-control
+{
+    border: 1px solid #919191;
+}
+
+.social
+{
+    background-color: #303030;
+    
+}
+
+.social_divs 
+{
+    
+    text-align: center;
+}
+
+.fb 
+{
+    
+    padding:8px 0;
+    
+}
+
+.fb:hover
+{
+    background-color:  #4668b3;
+}
+
+.yt 
+{
+    
+    padding:8px 0;
+    
+}
+
+.yt:hover
+{
+    background-color:  #d94348;
+}
+
+.tw
+{
+    
+    padding:8px 0;
+    
+}
+.tw:hover
+{
+    background-color:  #3095d3;
+}
+
+.gp
+{
+    
+    padding:8px 0;
+    
+}
+.gp:hover
+{
+    background-color:  #d95333;
+}
+
+.footer
+{
+    text-align: center;
+    
+    background-color: #222222;
+    clear: both;
 }
