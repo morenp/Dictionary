@@ -1,18 +1,22 @@
 <?php
     session_start();
 
-if(!isset($_SESSION['logged_in']))
+if(!isset($_SESSION['registration_OK']))
 {
-    unset($_SESSION['error']);
     header('Location: index.php');
     exit();
 }
+else
+{
+    unset($_SESSION['registration_OK']);
+}
+    
 ?>
 <!DOCTYPE html>
 <html lang = "pl">
 <head>
     <meta charset = "utf-8">
-    <title>Mój własny słownik</title>
+    <title></title>
     <meta name = "description" content="">
     <meta name = "keywords" content="">
     <meta name = "author" content="">
@@ -23,14 +27,12 @@ if(!isset($_SESSION['logged_in']))
 </head>
 <body>
     
-    <?php
-        
-    echo "<p>WITAJ ".$_SESSION['user']."!";
-    echo "<a href=logout.php>Log out!</a>";
-    echo "<p>E-mail: ".$_SESSION['email'];
-    echo "<p>dni premium: ".$_SESSION['premium_days'];
-    ?>
-    
+    <h1> Dziękujęmy za rejestrację w serwisie. Możesz zalogować się już na swoje konto</h1>
+ 
+    <br /><br />
+    <a href="index.php">Zaloguj się na swoje konto!</a>
+    <br /><br />
+  
 </body>
 
 </html>
