@@ -31,6 +31,8 @@ if(!isset($_SESSION['logged_in']))
     echo "<p>dni premium: ".$_SESSION['premium_days'];
 	//ZMIANA 
 	/// ZMIANA
+	
+	//NEXT CHANGE
     ?>
     
 </body>
