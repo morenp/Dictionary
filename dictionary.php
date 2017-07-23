@@ -29,7 +29,11 @@ if(!isset($_SESSION['logged_in']))
     echo "<a href=logout.php>Log out!</a>";
     echo "<p>E-mail: ".$_SESSION['email'];
     echo "<p>dni premium: ".$_SESSION['premium_days'];
-    ?>
+    
+	//Test line
+	?>
+	
+	
     
 </body>
 
