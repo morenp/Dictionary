@@ -1,2 +1,3 @@
 select pl.name, eng.name from translation join eng on eng.ID = ID_ENG  join pl on pl.ID = ID_PL
 select pl.name, eng.name, type.TYPE from translation join eng on eng.ID = ID_ENG  join pl on pl.ID = ID_PL join type on translation.ID_TYPE = type.ID_TYPE
+new line
